@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <nav class="nav">
+      <router-link to="/">Home</router-link>
     </nav>
     <router-view />
   </div>
@@ -13,5 +14,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.nav {
+  justify-content: center;
 }
 </style>

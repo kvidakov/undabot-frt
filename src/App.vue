@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <nav class="nav">
-      <router-link to="/">Home</router-link>
+      <router-link to="/">Home</router-link> | 
+      <router-link to="/contact">Contact</router-link>
     </nav>
     <router-view />
   </div>
@@ -18,5 +19,9 @@
 
 .nav {
   justify-content: center;
+
+  a {
+    margin: 0 5px;
+  }
 }
 </style>

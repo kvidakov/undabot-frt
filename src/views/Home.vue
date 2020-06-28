@@ -37,7 +37,7 @@ export default {
 .home {
   &__title {
     display: flex;
-    margin: 0 10px 0 0; 
+    margin: 0 10px 0 0;
   }
 
   &__cover {
@@ -45,6 +45,7 @@ export default {
     // max-width: 50px;
     float: left;
     margin-right: 10px;
+    max-width: 100%;
   }
 }
 </style>
